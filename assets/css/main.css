@@ -2040,6 +2040,7 @@
 					opacity: 0.1;
 				}
 
+
 /* Features */
 
 	.features {
@@ -3884,14 +3885,22 @@
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
+		/*background-image: url("images/intro.svg");*/
+		background-image: url("images/ripstikpic-background-bluesky.jpg");
 		background-position: top right;
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
+		background-repeat: repeat;
+		background-size: cover;
 	}
 
 		#intro p {
-			font-size: 1.25em;
+			color: white;
+			font-size: 2em;
+			text-shadow: 2px 2px 5px #000;
+		}
+
+		#intro h1 {
+			font-size: 4em;
+			text-shadow: 2px 2px 5px #000;
 		}
 
 			@media screen and (max-width: 980px) {
@@ -3930,4 +3939,19 @@
     filter: url(#drop-shadow);
     -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
     filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+
+.blur {
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter: blur(5px);
+}
+
+.big-button {
+	box-shadow: 2px 2px 2px black;
+	text-shadow: 2px 2px 2px black;
+	font-size: 1em;
+	size: 1em;
 }

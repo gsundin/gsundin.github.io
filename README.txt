@@ -24,6 +24,9 @@ Credits:
 
 	Icons:
 		Font Awesome (fortawesome.github.com/Font-Awesome)
+		
+	Updated Design:
+		Garrett Sundin
 
 	Other:
 		jQuery (jquery.com)

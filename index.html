@@ -12,6 +12,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.3/dist/vanilla-tilt.min.js"></script>
 	</head>
 	<body>
 
@@ -25,8 +26,12 @@
 						</div>
 						<div class="content">
 							<div class="inner">
-								<h1>Garrett Sundin</h1>
-								<p><span id="typewriter"></span><span class="cursor">|</span></p>
+								<div class="tilt-wrapper tilt">
+									<h1 id="name-tilt" class="tilt-target">Garrett Sundin</h1>
+									<p class="tilt-target">
+										<span id="typewriter"></span><span class="cursor">|</span>
+									</p>
+								</div>
 							</div>
 						</div>
 						<nav>
@@ -159,7 +164,8 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-      <script src="assets/js/typewriter.js"></script>
+			<script src="assets/js/typewriter.js"></script>
+			<script src="assets/js/tilter.js"></script>
 	</body>
 	
 </html>
